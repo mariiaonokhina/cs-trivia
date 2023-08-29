@@ -50,12 +50,12 @@ const Flashcard = ({difficulty}) => {
                     <div className={`flip-card-inner ${wasCardFlipped? 'show-answer': ''}`}>
                         <div className={`flip-card-front ${csvData[currCardIndex].difficulty}`} >
                             {/* Question */}
-                            {csvData[currCardIndex].question}
+                            <p>{csvData[currCardIndex].question}</p>
                         </div>
 
                         <div className="flip-card-back">
                             {/* Answer */}
-                            {csvData[currCardIndex].answer}
+                            <p>{csvData[currCardIndex].answer}</p>
                         </div>
                     </div>
                 </div>

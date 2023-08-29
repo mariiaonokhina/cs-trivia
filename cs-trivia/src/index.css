@@ -1,11 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-image: url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2274&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+}
+
+.game-description {
+  background-color:rgba(255, 250, 240, 0.6);
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  height: fit-content;
+  width: 80%;
+  padding: 1vw 0;
+}
+
+.game-description h1 {
+  font-family: 'Bitter', serif;
+  font-size: 50px;
+}
+
+.game-description h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin: 2vh 0;
+}
+
+.difficulty-container {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 input, button {
   cursor: pointer;
 }
 
+.Flashcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 75vh;
+  width: 60%;
+  margin-bottom: 2vh;
+}
+
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 90%;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   cursor: pointer;
@@ -36,12 +94,79 @@ input, button {
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.flip-card-front p {
+  height: fit-content;
+  width: 90%;
+  font-size: xx-large;
 }
 
 .flip-card-back {
   background-color: dodgerblue;
-  color: white;
   transform: rotateY(180deg);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.flip-card-back p {
+  color: white;
+  height: fit-content;
+  width: 90%;
+  font-size: xx-large;
+}
+
+.next-question-btn {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.next-question-btn:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.next-question-btn:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.next-question-btn:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.next-question-btn:focus {
+  outline: 1px transparent;
 }
 
 .Beginner {
