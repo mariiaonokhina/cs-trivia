@@ -20,6 +20,19 @@ Beginner|What is the difference between a file and a folder in a computer?|A fil
 Beginner|What is the function of an email client?|To send, receive, and manage emails
 Beginner|What is a hyperlink on a webpage?|A clickable element that directs users to another webpage or resource
 Beginner|What is the purpose of a cursor on a computer screen?|To indicate the current position for input or interaction
+Beginner|How many different colors are used in the lettering of Google's logo?|Four (Blue, Red, Green, and Yellow)
+Beginner|Name 3 different operating systems.|Ex: Windows, MacOS, Linux
+Beginner|What is the most common six-letter "word" that is used for passwords that don't require numbers or punctuation? (Hint: look at your PC keyboard)|Qwerty
+Beginner|What Harvard dropout co-founded Microsoft?|Bill Gates
+Beginner|The companies HP, Microsoft and Apple were all started in a what?|Garage
+Beginner|HTML and CSS are computer languages used to create what?|Websites
+Beginner|Name 3 branches of computer science.|Ex: Cybersecurity, Artificial Intelligence, Software Engineering, etc…
+Beginner|What is the most used search engine?|Google
+Beginner|How many megabytes are in 1 gigabyte?|1000 MB (decimal) or 1024 MB (binary)
+Beginner|In what year was the first internet home page created?|1991
+Beginner|Which modern computer technology allows for wireless communication between devices over short distances?|Bluetooth
+Beginner|Name 3 different programming languages.|Ex: C, Java, C#, C++, Python, R, JavaScript, etc.
+Beginner|What the new official name of Twitter?|X
 Intermediate|What is a variable in programming?|A named storage location for holding data
 Intermediate|What is a loop in programming used for?|To execute a set of statements repeatedly
 Intermediate|What is a function in programming?|A reusable block of code that performs a specific task
@@ -30,6 +43,15 @@ Intermediate|What is an algorithm in computer science?|A step-by-step procedure 
 Intermediate|What does OOP stand for in programming?|Object-Oriented Programming
 Intermediate|What is a compiler?|A program that translates high-level programming code into machine code
 Intermediate|What is an IP address used for?|To uniquely identify devices on a network
+Intermediate|Name 3 FAANG companies.|Ex: Meta (Facebook), Amazon, Apple, Netflix, Alphabet (Google)
+Intermediate|With which phrase is the HTTP error code 404 commonly associated?|“File not found”
+Intermediate|What do the letters HTML, a markup language used to create web pages, stand for?| Hypertext Markup Language
+Intermediate|In computer science, what does “GUI” stand for?|Graphical User Interface
+Intermediate|What is the difference between doubly-linked list and singly-linked list? (Explain verbally or draw)|In a singly-linked list, each node has a link to the next component only. In a doubly-linked list, every node also includes a link to the previous node.
+Intermediate|What was the name of the computer language named after a French philosopher and mathematician?|Pascal
+Intermediate|Name the worst- and best-case running times of adding a new element into a doubly-linked list at a specified position.|O(1) if adding to the beginning or end. O(n/2) if adding to the middle.
+Intermediate|Name 2 computer input devices.|Ex: keyboard, mouse, microphone, camera, etc…
+Intermediate|Name 2 computer output devices.|Ex: speakers, monitor, headphones, printer, etc…
 Expert|What is a data structure?|A way of organizing and storing data to perform operations efficiently
 Expert|What is a binary tree?|A tree data structure in which each node has at most two children
 Expert|What is a compiler and what is its role in programming?|A compiler translates high-level programming code into machine code, facilitating execution on a computer
@@ -55,3 +77,6 @@ Expert|What is the role of a RAID configuration in data storage?|RAID (Redundant
 Expert|Explain the concept of MapReduce in big data processing.|MapReduce is a programming model for processing and generating large datasets in parallel across a distributed cluster of computers
 Expert|What is the concept of CAP theorem in distributed systems?|CAP theorem states that a distributed system cannot simultaneously provide Consistency, Availability, and Partition tolerance, leading to trade-offs in system design
 Expert|What is the role of an ethical hacker in cybersecurity?|Ethical hackers identify vulnerabilities in computer systems to help organizations improve their security posture
+Expert|What is the main circuit board in a computer called?|Motherboard
+Expert|Name the principles of OOP (Object-Oriented Programming)? Encapsulation, Data Abstraction, Polymorphism, Inheritance
+Expert|Give an example of encapsulation in OOP.|Ex: A car is an example of encapsulation in real life because you can use it without worrying about how its engine and other mechanisms actually work.
