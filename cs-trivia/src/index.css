@@ -1,9 +1,14 @@
+input, button {
+  cursor: pointer;
+}
+
 .flip-card {
   background-color: transparent;
   width: 300px;
   height: 200px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
+  cursor: pointer;
 }
 
 .flip-card-inner {
@@ -16,7 +21,7 @@
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+.show-answer {
   transform: rotateY(180deg);
 }
 
@@ -37,4 +42,16 @@
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+}
+
+.Beginner {
+  background-color: rgb(144, 210, 144);
+}
+
+.Intermediate {
+  background-color: rgb(252, 252, 153);
+}
+
+.Expert {
+  background-color: rgb(244, 140, 140);
 }

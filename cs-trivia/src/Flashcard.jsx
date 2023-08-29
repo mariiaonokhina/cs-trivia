@@ -1,12 +1,10 @@
-/* eslint-disable no-unused-vars */
-import { useEffect, useState, useContext } from 'react';
-// import Context from './Context';
+/* eslint-disable react/prop-types */
+import { useEffect, useState } from 'react';
 
-const Flashcard = () => {
+const Flashcard = ({difficulty}) => {
     const [csvData, setCsvData] = useState([]);
-    const [currCardIndex, setCurrCardIndex] = useState(Math.floor(Math.random() * csvData.length));
-    const [showAnswer, setShowAnswer] = useState(false);
-    // const { wasCardFlipped, setWasCardFlipped, wasCardChanged, setWasCardChanged } = useContext(Context);
+    const [currCardIndex, setCurrCardIndex] = useState();
+    const [wasCardFlipped, setWasCardFlipped] = useState(false);
       
     useEffect(() => {
         const fetchData = async () => {
@@ -20,44 +18,49 @@ const Flashcard = () => {
                     parsedData.push({ difficulty, question, answer });
                 });
 
-                setCsvData(parsedData);
+                // Filter the parsed data based on selected difficulties
+                const filteredData = parsedData.filter(item => difficulty.includes(item.difficulty));
+                console.log(filteredData);
+                setCsvData(filteredData);
+
+                if (filteredData.length > 0) {
+                    setCurrCardIndex(Math.floor(Math.random() * filteredData.length));
+                }
+                console.log(difficulty)
             } catch (error) {
                 console.error('Error fetching CSV data:', error);
             }
         };
 
-        // if (wasCardChanged) {
-        //     setCurrCardIndex(Math.floor(Math.random() * csvData.length));
-        //     setWasCardChanged(!wasCardChanged);
-        // }
-
         fetchData();
-    }, []);
-    // csvData.length, wasCardChanged, wasCardFlipped, setWasCardChanged
+    }, [difficulty]);
 
-    // const flipCard = () => {
-    //     setWasCardFlipped(!wasCardFlipped);
-    // };
+    const changeCard = () => {
+        setWasCardFlipped(false);
+        setCurrCardIndex(Math.floor(Math.random() * csvData.length));
+    }
 
     return (
-        <div className='App'>
-            {csvData.length != 0? 
-                <div className={`flip-card ${csvData[currCardIndex].difficulty}`} title={csvData[currCardIndex].    difficulty}>
-                    <div className="flip-card-inner">
-                        <div className="flip-card-front" >
+        <div className='Flashcard'>
+            {csvData.length !== 0? 
+                <div className='flip-card' 
+                    title={csvData[currCardIndex].difficulty} 
+                    onClick={() => setWasCardFlipped(!wasCardFlipped)}>
+
+                    <div className={`flip-card-inner ${wasCardFlipped? 'show-answer': ''}`}>
+                        <div className={`flip-card-front ${csvData[currCardIndex].difficulty}`} >
                             {/* Question */}
                             {csvData[currCardIndex].question}
-                            {/* <p>Card changed? {wasCardChanged}</p> */}
                         </div>
 
                         <div className="flip-card-back">
                             {/* Answer */}
                             {csvData[currCardIndex].answer}
-                            {/* <p>Card flipped? {wasCardFlipped}</p> */}
                         </div>
                     </div>
                 </div>
             : <p>Loading...</p>}
+            <button className="next-question-btn" onClick={changeCard}>Next Question</button>
         </div>
     )
 }
