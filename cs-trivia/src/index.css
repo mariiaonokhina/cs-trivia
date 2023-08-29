@@ -25,6 +25,7 @@
   height: fit-content;
   width: 80%;
   padding: 1vw 0;
+  border-radius: 20px;
 }
 
 .game-description h1 {
@@ -67,6 +68,7 @@ input, button {
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .flip-card-inner {
@@ -89,6 +91,7 @@ input, button {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  border-radius: 20px;
 }
 
 .flip-card-front {
@@ -127,7 +130,7 @@ input, button {
   appearance: none;
   background-color: #FAFBFC;
   border: 1px solid rgba(27, 31, 35, 0.15);
-  border-radius: 6px;
+  border-radius: 10px;
   box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
   box-sizing: border-box;
   color: #24292E;

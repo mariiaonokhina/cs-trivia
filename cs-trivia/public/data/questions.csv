@@ -5,6 +5,7 @@ Beginner|What is the full form of HTML?|HyperText Markup Language
 Beginner|What is the binary equivalent of the decimal number 10?|1010
 Beginner|What is the primary function of an operating system?|Manage hardware and software resources
 Beginner|What is the extension of a Python source code file?|.py
+Beginner|What is the extension of a Java source code file?|.java
 Beginner|What does URL stand for?|Uniform Resource Locator
 Beginner|What is the process of converting high-level programming code into machine code called?|Compilation
 Beginner|What is RAM short for?|Random Access Memory
@@ -29,7 +30,7 @@ Beginner|HTML and CSS are computer languages used to create what?|Websites
 Beginner|Name 3 branches of computer science.|Ex: Cybersecurity, Artificial Intelligence, Software Engineering, etc…
 Beginner|What is the most used search engine?|Google
 Beginner|How many megabytes are in 1 gigabyte?|1000 MB (decimal) or 1024 MB (binary)
-Beginner|In what year was the first internet home page created?|1991
+Beginner|Approximately, in what year was the first internet home page created?|1991
 Beginner|Which modern computer technology allows for wireless communication between devices over short distances?|Bluetooth
 Beginner|Name 3 different programming languages.|Ex: C, Java, C#, C++, Python, R, JavaScript, etc.
 Beginner|What the new official name of Twitter?|X
@@ -52,28 +53,24 @@ Intermediate|What was the name of the computer language named after a French phi
 Intermediate|Name the worst- and best-case running times of adding a new element into a doubly-linked list at a specified position.|O(1) if adding to the beginning or end. O(n/2) if adding to the middle.
 Intermediate|Name 2 computer input devices.|Ex: keyboard, mouse, microphone, camera, etc…
 Intermediate|Name 2 computer output devices.|Ex: speakers, monitor, headphones, printer, etc…
+Intermediate|Name 1 programming language used commonly used for machine learning.|Python
 Expert|What is a data structure?|A way of organizing and storing data to perform operations efficiently
 Expert|What is a binary tree?|A tree data structure in which each node has at most two children
 Expert|What is a compiler and what is its role in programming?|A compiler translates high-level programming code into machine code, facilitating execution on a computer
 Expert|Explain the concept of time complexity in algorithms.|It measures the amount of time an algorithm takes to complete as a function of its input size
 Expert|What is dynamic programming and when is it used?|Dynamic programming is a technique to solve problems by breaking them into smaller subproblems and reusing solutions to overlapping subproblems, often used in optimization problems
-Expert|What is a database index and why is it important?|A database index is a data structure that improves the speed of data retrieval operations by providing a quick access path to data stored in a database table
 Expert|What is virtualization in computing and how is it useful?|Virtualization involves creating virtual instances of computers, operating systems, or applications on a physical host, enabling better resource utilization, isolation, and management
 Expert|What is the role of cache memory in a computer system?|Cache memory stores frequently used data for quicker access, reducing the latency of memory operations and improving overall system performance
-Expert|What is a cache miss in computer architecture?|When data requested by the CPU is not found in the cache memory
-Expert|What is the purpose of a binary semaphore in multithreading?|To control access to a shared resource using a binary flag
 Expert|What is the difference between a hash function and a cryptographic hash function?|Cryptographic hash functions are designed for security and exhibit properties like collision resistance
 Expert|Explain the concept of machine learning and give an example.|Machine learning involves training algorithms to improve their performance on a specific task using data. Example: Training a model to classify emails as spam or not spam
 Expert|What is the difference between encryption and hashing?|Encryption transforms data to keep it secret, while hashing transforms data into a fixed-size string of characters (hash) for verification
 Expert|Explain the concept of multithreading in programming.|Multithreading involves running multiple threads in a single process to achieve parallelism and better resource utilization
 Expert|What is the role of a firewall in network security?|A firewall controls incoming and outgoing network traffic based on a set of security rules
 Expert|Explain the difference between machine code and assembly language.|Machine code is a set of binary instructions executed directly by a computer's CPU, while assembly language is a human-readable representation of machine code
-Expert|What is the purpose of an inner join in SQL?|To retrieve only the records that have matching values in both tables being joined
 Expert|What is a CAPTCHA and why is it used on websites?|A CAPTCHA is a test to determine whether the user is human, used to prevent automated bots from accessing a website's services
 Expert|What is the concept of garbage collection in programming languages?|Garbage collection automatically reclaims memory occupied by objects that are no longer in use, preventing memory leaks
 Expert|Explain the concept of recursion in programming with an example.|Recursion is when a function calls itself to solve smaller instances of the same problem. Example: The factorial function, where n! = n * (n-1)!
 Expert|What is a VPN and why is it used in networking?|A Virtual Private Network (VPN) creates a secure and encrypted connection over a less secure network, ensuring data privacy and security
-Expert|What is the role of a RAID configuration in data storage?|RAID (Redundant Array of Independent Disks) configurations enhance data storage performance, reliability, and fault tolerance
 Expert|Explain the concept of MapReduce in big data processing.|MapReduce is a programming model for processing and generating large datasets in parallel across a distributed cluster of computers
 Expert|What is the concept of CAP theorem in distributed systems?|CAP theorem states that a distributed system cannot simultaneously provide Consistency, Availability, and Partition tolerance, leading to trade-offs in system design
 Expert|What is the role of an ethical hacker in cybersecurity?|Ethical hackers identify vulnerabilities in computer systems to help organizations improve their security posture
