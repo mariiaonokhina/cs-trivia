@@ -1,0 +1,57 @@
+Beginner|Name 2 computer science programming languages.|Python, Java
+Beginner|How many bytes are in a kilobyte?|1024
+Beginner|What does CPU stand for?|Central Processing Unit
+Beginner|What is the full form of HTML?|HyperText Markup Language
+Beginner|What is the binary equivalent of the decimal number 10?|1010
+Beginner|What is the primary function of an operating system?|Manage hardware and software resources
+Beginner|What is the extension of a Python source code file?|.py
+Beginner|What does URL stand for?|Uniform Resource Locator
+Beginner|What is the process of converting high-level programming code into machine code called?|Compilation
+Beginner|What is RAM short for?|Random Access Memory
+Beginner|What is the purpose of a computer motherboard?|To connect and provide communication between various hardware components
+Beginner|What is a computer virus?|A type of malicious software that can replicate itself and infect a computer system
+Beginner|What is the difference between a web browser and a search engine?|A web browser is used to access websites, while a search engine helps find information on the internet
+Beginner|What is the role of a GPU in a computer system?|To handle graphics processing tasks and improve visual performance
+Beginner|What is a URL used for?|To specify the address of a resource on the internet
+Beginner|What is an algorithm?|A set of well-defined steps to solve a problem or perform a task
+Beginner|What is the purpose of an input device?|To provide data or commands to a computer system
+Beginner|What is a software update?|A release of new features or fixes to improve a program's functionality or security
+Beginner|What is the difference between a file and a folder in a computer?|A file stores data, while a folder is a container for organizing files
+Beginner|What is the function of an email client?|To send, receive, and manage emails
+Beginner|What is a hyperlink on a webpage?|A clickable element that directs users to another webpage or resource
+Beginner|What is the purpose of a cursor on a computer screen?|To indicate the current position for input or interaction
+Intermediate|What is a variable in programming?|A named storage location for holding data
+Intermediate|What is a loop in programming used for?|To execute a set of statements repeatedly
+Intermediate|What is a function in programming?|A reusable block of code that performs a specific task
+Intermediate|What is the difference between an array and a linked list?|Arrays have contiguous memory locations, while linked lists use nodes with pointers
+Intermediate|What is SQL used for in programming?|To manage and query relational databases
+Intermediate|What is the difference between HTTP and HTTPS?|HTTPS encrypts data transmitted between a client and a server
+Intermediate|What is an algorithm in computer science?|A step-by-step procedure or formula for solving a problem
+Intermediate|What does OOP stand for in programming?|Object-Oriented Programming
+Intermediate|What is a compiler?|A program that translates high-level programming code into machine code
+Intermediate|What is an IP address used for?|To uniquely identify devices on a network
+Expert|What is a data structure?|A way of organizing and storing data to perform operations efficiently
+Expert|What is a binary tree?|A tree data structure in which each node has at most two children
+Expert|What is a compiler and what is its role in programming?|A compiler translates high-level programming code into machine code, facilitating execution on a computer
+Expert|Explain the concept of time complexity in algorithms.|It measures the amount of time an algorithm takes to complete as a function of its input size
+Expert|What is dynamic programming and when is it used?|Dynamic programming is a technique to solve problems by breaking them into smaller subproblems and reusing solutions to overlapping subproblems, often used in optimization problems
+Expert|What is a database index and why is it important?|A database index is a data structure that improves the speed of data retrieval operations by providing a quick access path to data stored in a database table
+Expert|What is virtualization in computing and how is it useful?|Virtualization involves creating virtual instances of computers, operating systems, or applications on a physical host, enabling better resource utilization, isolation, and management
+Expert|What is the role of cache memory in a computer system?|Cache memory stores frequently used data for quicker access, reducing the latency of memory operations and improving overall system performance
+Expert|What is a cache miss in computer architecture?|When data requested by the CPU is not found in the cache memory
+Expert|What is the purpose of a binary semaphore in multithreading?|To control access to a shared resource using a binary flag
+Expert|What is the difference between a hash function and a cryptographic hash function?|Cryptographic hash functions are designed for security and exhibit properties like collision resistance
+Expert|Explain the concept of machine learning and give an example.|Machine learning involves training algorithms to improve their performance on a specific task using data. Example: Training a model to classify emails as spam or not spam
+Expert|What is the difference between encryption and hashing?|Encryption transforms data to keep it secret, while hashing transforms data into a fixed-size string of characters (hash) for verification
+Expert|Explain the concept of multithreading in programming.|Multithreading involves running multiple threads in a single process to achieve parallelism and better resource utilization
+Expert|What is the role of a firewall in network security?|A firewall controls incoming and outgoing network traffic based on a set of security rules
+Expert|Explain the difference between machine code and assembly language.|Machine code is a set of binary instructions executed directly by a computer's CPU, while assembly language is a human-readable representation of machine code
+Expert|What is the purpose of an inner join in SQL?|To retrieve only the records that have matching values in both tables being joined
+Expert|What is a CAPTCHA and why is it used on websites?|A CAPTCHA is a test to determine whether the user is human, used to prevent automated bots from accessing a website's services
+Expert|What is the concept of garbage collection in programming languages?|Garbage collection automatically reclaims memory occupied by objects that are no longer in use, preventing memory leaks
+Expert|Explain the concept of recursion in programming with an example.|Recursion is when a function calls itself to solve smaller instances of the same problem. Example: The factorial function, where n! = n * (n-1)!
+Expert|What is a VPN and why is it used in networking?|A Virtual Private Network (VPN) creates a secure and encrypted connection over a less secure network, ensuring data privacy and security
+Expert|What is the role of a RAID configuration in data storage?|RAID (Redundant Array of Independent Disks) configurations enhance data storage performance, reliability, and fault tolerance
+Expert|Explain the concept of MapReduce in big data processing.|MapReduce is a programming model for processing and generating large datasets in parallel across a distributed cluster of computers
+Expert|What is the concept of CAP theorem in distributed systems?|CAP theorem states that a distributed system cannot simultaneously provide Consistency, Availability, and Partition tolerance, leading to trade-offs in system design
+Expert|What is the role of an ethical hacker in cybersecurity?|Ethical hackers identify vulnerabilities in computer systems to help organizations improve their security posture
